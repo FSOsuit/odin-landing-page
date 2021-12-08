@@ -1,14 +1,19 @@
+html, body {
+    margin: 0px;
+}
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: red;
 }
 
 header {
+    
     background-color: #1F2937;
     height: 500px;
-    
+    width: 100%;
 }
 .header-top {
     display: flex;
@@ -40,6 +45,9 @@ a {
     text-decoration: none;
 }
 
+
+
+/*fonts & colors & button*/
 .hero-main-text {
     font-size: 48px;
     font-weight: bolder;
