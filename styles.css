@@ -9,6 +9,7 @@ body {
     background-color: red;
 }
 
+/*Header & Hero*/
 header {
     
     background-color: #1F2937;
@@ -34,15 +35,6 @@ header {
 .header-image {
     background-color: grey;
     width: 700px;
-}
-ul {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-}
-
-a {
-    text-decoration: none;
 }
 
 
@@ -74,4 +66,16 @@ button {
     font-size: 16px;
     font-weight: bold;
     border-radius: 8px;
+}
+
+
+/* removing dots and text dec. from ul and a*/
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
 }
