@@ -1,42 +1,43 @@
-html, body {
+* {
     margin: 0px;
 }
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     background-color: red;
 }
 
 /*Header & Hero*/
 header {
-    
     background-color: #1F2937;
     height: 500px;
-    width: 100%;
+    padding-top: 30px;
+    padding-left: 15em;
+    padding-right: 15em;
 }
-.header-top {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 4em;
 }
 
-.header-links {
+.right {
     display: flex;
     gap: 16px;
 }
 
 .header-bot {
-    
     display: flex;
+    justify-content: space-between;
 }
 
 .header-image {
-    background-color: grey;
-    width: 700px;
+    height: 300px;
+    width: 400px;
 }
 
+.header-text-button {
+    width: 500px;
+}
 
 
 /*fonts & colors & button*/
@@ -51,7 +52,9 @@ header {
     color: #E5E7EB;
 }
 
-h4 {
+.left {
+    width: 100px;
+    height: 100px;
     font-size: 24px;
     color: #F9FAF8;
 }
