@@ -76,6 +76,19 @@ nav {
     gap: 7em;
 }
 
+/*quote part*/
+.quote {
+    height: 300px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
 
 /*fonts & colors & button*/
 .hero-main-text {
