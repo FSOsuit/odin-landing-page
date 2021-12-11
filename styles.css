@@ -25,13 +25,15 @@ nav {
 .header-bot {
     display: flex;
     justify-content: space-between;
+    
 }
 
 
 .header-image {
-    height: 300px;
-    width: 300px;
-    border-radius: 32px;
+    height: 250px;
+    width: 250px;
+    border: 1px solid;
+    border-color: white; 
 }
 
 .header-text-button {
@@ -50,15 +52,15 @@ nav {
 }
 
 .small-img {
-    height: 200px;
+    height: 180px;
     width: 200px;
-    border: 7px solid;
-    border-color: lightblue;
-    border-radius: 32px;
+    border: 3px solid;
+    border-color: #795038;
+    border-radius: 16px;
 }
 
 .img-text {
-    height: 200px;
+    height: 300px;
     width: 200px;
     display: flex;
     flex-direction: column;
@@ -73,12 +75,19 @@ nav {
 
 .icons-text {
     display: flex;
-    gap: 7em;
+    gap: 64px;
 }
 
 /*quote part*/
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .quote {
     height: 300px;
+    width: 700px;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
@@ -88,6 +97,47 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 70px;
+}
+
+/*vote part*/
+.vote {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: #3882F6;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+    border-radius: 16px;
+    color: #F9FAF8;
+}
+.main {
+    font-size: 36px;
+}
+.secondary {
+    font-size: 18px;
+}
+
+.special {
+    border: 1px solid;
+    border-color: white;
+}
+
+/*footer*/
+footer {
+    background-color: #1F2937;
+    color: white;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 /*fonts & colors & button*/
